@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+checkpoints_retrained/
+runs/
+*.stdout.log
+*.stderr.log
+data/候选库.csv
+results/screen_rank.csv
+
