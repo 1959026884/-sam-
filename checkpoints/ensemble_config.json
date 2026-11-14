@@ -1,0 +1,21 @@
+{
+  "wo": {
+    "lr": 0.0012738065748605376,
+    "weight_decay": 0.0013313578015835944,
+    "dropout": 0.3,
+    "d_h": 256,
+    "depth": 2,
+    "head_hid": 96,
+    "batch_size": 2048
+  },
+  "gt": {
+    "lr": 0.002284923087457864,
+    "weight_decay": 4.7752676496738686e-05,
+    "dropout": 0.1,
+    "d": 96,
+    "layers": 2,
+    "heads": 2,
+    "head_hid": 64,
+    "batch_size": 1024
+  }
+}
