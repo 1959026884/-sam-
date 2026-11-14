@@ -1,0 +1,21 @@
+{
+  "epochs": 600,
+  "folds": 5,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "models": [
+    "wo",
+    "gt"
+  ],
+  "trials_per_fold": 8,
+  "eval_interval": 20,
+  "split_seed": 20261113,
+  "tuning_seed": 20261114,
+  "deterministic": false,
+  "device": "cuda",
+  "torch": "2.14.1+cu130",
+  "optuna": "5.0.0"
+}

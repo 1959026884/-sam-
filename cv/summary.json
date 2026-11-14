@@ -1,0 +1,305 @@
+{
+  "cv": {
+    "0": {
+      "fold": 0,
+      "train_pairs": 10962,
+      "val_pairs": 3428,
+      "strict_unseen_pairs": 691,
+      "cold_start_metrics": {
+        "pairs": 3428,
+        "positive_pairs": 2024,
+        "accuracy_at_0_5": 0.9507001166861143,
+        "brier": 0.048634507419620034,
+        "auc": 0.9643494589146763
+      },
+      "strict_unseen_metrics": {
+        "pairs": 691,
+        "positive_pairs": 224,
+        "accuracy_at_0_5": 0.9088277858176556,
+        "brier": 0.07444175011226924,
+        "auc": 0.9512991358213521
+      },
+      "component_cold_start_metrics": {
+        "wo": {
+          "pairs": 3428,
+          "positive_pairs": 2024,
+          "accuracy_at_0_5": 0.9355309218203034,
+          "brier": 0.054915323249334104,
+          "auc": 0.9627812053083791
+        },
+        "gt": {
+          "pairs": 3428,
+          "positive_pairs": 2024,
+          "accuracy_at_0_5": 0.925904317386231,
+          "brier": 0.05772476200420661,
+          "auc": 0.9664443346508563
+        }
+      },
+      "configs": {
+        "wo": {
+          "lr": 0.0009975080040754087,
+          "weight_decay": 5.027253340064401e-05,
+          "dropout": 0.3,
+          "d_h": 128,
+          "depth": 4,
+          "head_hid": 32,
+          "batch_size": 8192
+        },
+        "gt": {
+          "lr": 0.0010212851333297672,
+          "weight_decay": 0.00047468240425060216,
+          "dropout": 0.1,
+          "d": 128,
+          "layers": 2,
+          "heads": 2,
+          "head_hid": 64,
+          "batch_size": 2048
+        }
+      }
+    },
+    "1": {
+      "fold": 1,
+      "train_pairs": 10950,
+      "val_pairs": 3441,
+      "strict_unseen_pairs": 697,
+      "cold_start_metrics": {
+        "pairs": 3441,
+        "positive_pairs": 1934,
+        "accuracy_at_0_5": 0.947399011915141,
+        "brier": 0.037130009317940374,
+        "auc": 0.992379924365371
+      },
+      "strict_unseen_metrics": {
+        "pairs": 697,
+        "positive_pairs": 293,
+        "accuracy_at_0_5": 0.9124820659971306,
+        "brier": 0.06659373860160167,
+        "auc": 0.9716824924813301
+      },
+      "component_cold_start_metrics": {
+        "wo": {
+          "pairs": 3441,
+          "positive_pairs": 1934,
+          "accuracy_at_0_5": 0.9349026445800639,
+          "brier": 0.05101679062572892,
+          "auc": 0.9839478847076278
+        },
+        "gt": {
+          "pairs": 3441,
+          "positive_pairs": 1934,
+          "accuracy_at_0_5": 0.9314152862539959,
+          "brier": 0.04516583957624018,
+          "auc": 0.9887050709237621
+        }
+      },
+      "configs": {
+        "wo": {
+          "lr": 0.0021984117131196713,
+          "weight_decay": 0.004474735217387749,
+          "dropout": 0.3,
+          "d_h": 200,
+          "depth": 4,
+          "head_hid": 64,
+          "batch_size": 4096
+        },
+        "gt": {
+          "lr": 0.000750054020129321,
+          "weight_decay": 0.004702051165511511,
+          "dropout": 0.05,
+          "d": 128,
+          "layers": 2,
+          "heads": 2,
+          "head_hid": 64,
+          "batch_size": 2048
+        }
+      }
+    },
+    "2": {
+      "fold": 2,
+      "train_pairs": 11031,
+      "val_pairs": 3438,
+      "strict_unseen_pairs": 676,
+      "cold_start_metrics": {
+        "pairs": 3438,
+        "positive_pairs": 1882,
+        "accuracy_at_0_5": 0.8821989528795812,
+        "brier": 0.08234577452854529,
+        "auc": 0.9670482981786592
+      },
+      "strict_unseen_metrics": {
+        "pairs": 676,
+        "positive_pairs": 244,
+        "accuracy_at_0_5": 0.7928994082840237,
+        "brier": 0.1425824489108832,
+        "auc": 0.8881583940497875
+      },
+      "component_cold_start_metrics": {
+        "wo": {
+          "pairs": 3438,
+          "positive_pairs": 1882,
+          "accuracy_at_0_5": 0.8426410703897614,
+          "brier": 0.1329818206839035,
+          "auc": 0.920423222027652
+        },
+        "gt": {
+          "pairs": 3438,
+          "positive_pairs": 1882,
+          "accuracy_at_0_5": 0.9066317626527051,
+          "brier": 0.06352279944840067,
+          "auc": 0.9782841573122725
+        }
+      },
+      "configs": {
+        "wo": {
+          "lr": 0.0015793248104489829,
+          "weight_decay": 4.230445881814181e-05,
+          "dropout": 0.05,
+          "d_h": 256,
+          "depth": 2,
+          "head_hid": 64,
+          "batch_size": 4096
+        },
+        "gt": {
+          "lr": 0.0021877255540650917,
+          "weight_decay": 0.00025800183704461586,
+          "dropout": 0.1,
+          "d": 64,
+          "layers": 2,
+          "heads": 4,
+          "head_hid": 64,
+          "batch_size": 1024
+        }
+      }
+    },
+    "3": {
+      "fold": 3,
+      "train_pairs": 10984,
+      "val_pairs": 3437,
+      "strict_unseen_pairs": 687,
+      "cold_start_metrics": {
+        "pairs": 3437,
+        "positive_pairs": 1909,
+        "accuracy_at_0_5": 0.7940064009310445,
+        "brier": 0.15840163431950477,
+        "auc": 0.8699829479538915
+      },
+      "strict_unseen_metrics": {
+        "pairs": 687,
+        "positive_pairs": 351,
+        "accuracy_at_0_5": 0.7088791848617176,
+        "brier": 0.22701125864452787,
+        "auc": 0.7816993962827297
+      },
+      "component_cold_start_metrics": {
+        "wo": {
+          "pairs": 3437,
+          "positive_pairs": 1909,
+          "accuracy_at_0_5": 0.7861507128309573,
+          "brier": 0.1860419233404603,
+          "auc": 0.8733688452878209
+        },
+        "gt": {
+          "pairs": 3437,
+          "positive_pairs": 1909,
+          "accuracy_at_0_5": 0.7937154495199301,
+          "brier": 0.15502292180661006,
+          "auc": 0.8692645610897951
+        }
+      },
+      "configs": {
+        "wo": {
+          "lr": 0.0012738065748605376,
+          "weight_decay": 0.0013313578015835944,
+          "dropout": 0.3,
+          "d_h": 256,
+          "depth": 2,
+          "head_hid": 96,
+          "batch_size": 2048
+        },
+        "gt": {
+          "lr": 0.002284923087457864,
+          "weight_decay": 4.7752676496738686e-05,
+          "dropout": 0.1,
+          "d": 96,
+          "layers": 2,
+          "heads": 2,
+          "head_hid": 64,
+          "batch_size": 1024
+        }
+      }
+    },
+    "4": {
+      "fold": 4,
+      "train_pairs": 11049,
+      "val_pairs": 3440,
+      "strict_unseen_pairs": 673,
+      "cold_start_metrics": {
+        "pairs": 3440,
+        "positive_pairs": 1948,
+        "accuracy_at_0_5": 0.9226744186046512,
+        "brier": 0.0556393248554273,
+        "auc": 0.9798743538433591
+      },
+      "strict_unseen_metrics": {
+        "pairs": 673,
+        "positive_pairs": 353,
+        "accuracy_at_0_5": 0.8855869242199108,
+        "brier": 0.08205269844657768,
+        "auc": 0.9683250708215297
+      },
+      "component_cold_start_metrics": {
+        "wo": {
+          "pairs": 3440,
+          "positive_pairs": 1948,
+          "accuracy_at_0_5": 0.9183139534883721,
+          "brier": 0.07401934138733886,
+          "auc": 0.9752655848302515
+        },
+        "gt": {
+          "pairs": 3440,
+          "positive_pairs": 1948,
+          "accuracy_at_0_5": 0.9043604651162791,
+          "brier": 0.058474933390285054,
+          "auc": 0.9796424531106352
+        }
+      },
+      "configs": {
+        "wo": {
+          "lr": 0.0016067922431075555,
+          "weight_decay": 0.0077415657909657215,
+          "dropout": 0.0,
+          "d_h": 128,
+          "depth": 2,
+          "head_hid": 96,
+          "batch_size": 4096
+        },
+        "gt": {
+          "lr": 0.00021296589819607705,
+          "weight_decay": 0.007874434732254201,
+          "dropout": 0.1,
+          "d": 64,
+          "layers": 3,
+          "heads": 2,
+          "head_hid": 64,
+          "batch_size": 4096
+        }
+      }
+    }
+  },
+  "pooled_oof_cold_start": {
+    "pairs": 17184,
+    "positive_pairs": 9697,
+    "accuracy_at_0_5": 0.899383147113594,
+    "brier": 0.07643237435902214,
+    "auc": 0.9600882635397902
+  },
+  "pooled_oof_strict_unseen": {
+    "pairs": 3424,
+    "positive_pairs": 1465,
+    "accuracy_at_0_5": 0.8419976635514018,
+    "brier": 0.11840508800817431,
+    "auc": 0.9162491484998789
+  },
+  "fold_cold_start_auc_mean": 0.9547269966511914,
+  "fold_cold_start_auc_std": 0.04353410750240094
+}
