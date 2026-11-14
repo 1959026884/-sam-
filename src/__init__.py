@@ -1,0 +1,1 @@
+"""SAM pair-comparator package."""
