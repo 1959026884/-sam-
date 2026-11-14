@@ -1,0 +1,25 @@
+{
+  "antisymmetry_sum": 1.0,
+  "reference_order": [
+    "4PACz",
+    "MeO-2PACz",
+    "2PACz"
+  ],
+  "reference_pair_matrix": {
+    "4PACz": {
+      "4PACz": 0.5,
+      "MeO-2PACz": 0.30748528242111206,
+      "2PACz": 0.5486305356025696
+    },
+    "MeO-2PACz": {
+      "4PACz": 0.6925147771835327,
+      "MeO-2PACz": 0.5,
+      "2PACz": 0.6762837767601013
+    },
+    "2PACz": {
+      "4PACz": 0.4513694643974304,
+      "MeO-2PACz": 0.3237162232398987,
+      "2PACz": 0.5
+    }
+  }
+}
